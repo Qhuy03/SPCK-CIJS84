@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 const Header =()=>{
     return(
         <div className="navBar">
@@ -11,8 +12,8 @@ const Header =()=>{
         <a href="?page=news" />
         <div className="dropdown">BẢNG TIN
           <div className="dropdown-content">
-            <Link href="#">App Cộng</Link>
-            <Link href="#">Tin Tức</Link>
+            <Link to="/app-cong">App Cộng</Link>
+            <Link to="/tin">Tin Tức</Link>
             <a href="#">Hợp Tác</a>
             <a href="#">Đó Đây</a>
             <a href="#">Pha Chế</a>
@@ -34,7 +35,7 @@ const Header =()=>{
             </a><a href="#">Tuyển Dụng</a>
             <a href="#">Cộng Lắng Nghe</a>
             <a href="#">Về Chúng Tôi</a></div></div></li>
-      <li><Link to='/login' className="loginbtn">ĐĂNG NHẬP</Link></li>
+      <li><Link to='/login' id="login" className="loginbtn">ĐĂNG NHẬP</Link></li>
     </ul>
   </nav>
 </div>
