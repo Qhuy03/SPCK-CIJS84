@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../Admin/Header";
+import Header from "../Home/Header";
 import Footer from "../Home/Footer";
 import './css/font-awesome.min.css';
 import './css/responsive.css';
@@ -13,7 +13,7 @@ const AppCong=()=>{
         <>
         <Header/>
         <Content1/>
-<Footer/>
+        <Footer/>
 </>
     );
 };

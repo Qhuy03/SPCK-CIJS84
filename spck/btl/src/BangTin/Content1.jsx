@@ -42,7 +42,7 @@ const Content1=()=>{
                   <div className="col-lg-6">
                     <div className="blog-box">
                       <div className="post-media">
-                        <a href="tin.html" title>
+                        <a href="/tin" title>
                           <img src="https://cong-news.appwifi.com/wp-content/uploads/2023/05/MicrosoftTeams-image-8.png" alt="" className="img-fluid" />
                           <div className="hovereffect">
                             <span className />

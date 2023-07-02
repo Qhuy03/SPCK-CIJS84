@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Login from './Login/Login';
 import Register from './Login/Register';
-import Admin from './Admin/Admin';
+
 import Home from './Home';
 import Story from './Story';
 import { Link, useNavigate } from "react-router-dom";
@@ -19,7 +19,7 @@ function App() {
         <Route path='/' element={<Home/>}/>
         <Route path='/login' element={<Login/>}/>
         <Route path='/register' element={<Register/>}/>
-        <Route path='/admin' element={<Admin/>}/>
+        
         <Route path='/story' element={<Story/>}/>
         <Route path='/tin' element={<TinTuc/>}/>
         <Route path='/app-cong' element={<AppCong/>}/>

@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../Admin/Header";
+import Header from "../Home/Header";
 import Footer from "../Home/Footer";
 import './css/bootstrap.css';
 import './css/colors.css';
@@ -96,7 +96,7 @@ const TinTuc = ()=>{
               <div className="blog-box row">
                 <div className="col-md-4">
                   <div className="post-media">
-                    <a href="tin.html" title>
+                    <a href="/app-cong" title>
                       <img src="https://cong-news.appwifi.com/wp-content/uploads/2023/04/web-thumbnail-01-1.png" alt="" className="img-fluid" />
                       <div className="hovereffect" />
                     </a>
