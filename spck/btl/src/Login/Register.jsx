@@ -158,10 +158,10 @@ const Register = () => {
         />
 
         <hr />
-        <p>
+        {/* <p>
           Để tạo tài khoản vui lòng đồng ý với điều khoản của chúng tôi{" "}
           <a href="#">Terms &amp; Privacy</a>.
-        </p>
+        </p> */}
         
           <button onClick={handleAddUser} type="submit" className="submit">
             Đăng ký

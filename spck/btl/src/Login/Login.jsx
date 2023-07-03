@@ -24,17 +24,14 @@ const Login =()=>{
 
   
   const handleLogin =()=>{
-    for(let user of data){
-      if(userName == user.userName && password == user.password){
-        navigate('/')
-        localStorage.setItem('user_login', user.userName );
-       
-
-      }
-      else{
-        console.log(1);
-        alert("Đăng nhập thất bại!");
-      }
+    const currentUser = data.filter((user)=>{
+        return user.userName === userName && user.password === password
+    })
+    if(currentUser.length>0){
+      localStorage.setItem('user',JSON.stringify(currentUser))
+      navigate('/')
+    }else{
+      alert('Wrong username or password')
     }
   };
     

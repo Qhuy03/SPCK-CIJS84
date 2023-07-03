@@ -12,6 +12,7 @@ const AppCong=()=>{
     return(
         <>
         <Header/>
+        <hr/>
         <Content1/>
         <Footer/>
 </>

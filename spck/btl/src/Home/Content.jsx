@@ -1,13 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Content = ()=> {
     return(
         <div>
   <div className="container">
+    <Link to='/story'>
     <img src="https://cong-news.appwifi.com/wp-content/uploads/2019/01/banner1.jpg" alt="" style={{width: '100%'}} />
     <div className="overlay">
       <div className="text">CÂU CHUYỆN CỘNG</div>
     </div>
+    </Link>
   </div>
   <br />
   <div className="container2" style={{display: 'flex'}}>

@@ -87,7 +87,7 @@ const TinTuc = ()=>{
                 <div className="col-lg-10 offset-lg-1">
                   <div className="banner-spot clearfix">
                     <div className="banner-img">
-                      <img src="https://scontent.fhan14-1.fna.fbcdn.net/v/t39.30808-6/269314862_10158813081124005_4277663843433800346_n.jpg?_nc_cat=107&cb=99be929b-3346023f&ccb=1-7&_nc_sid=e3f864&_nc_ohc=igMQyF5qVrYAX-hEeZn&_nc_ht=scontent.fhan14-1.fna&oh=00_AfBAnc3KSbeCpFqAaU2T-EL8RZmf7z9TbfxzeQxgK6liuA&oe=64948001" alt="" className="img-fluid" />
+                      <img src="https://img.jamja.vn/jamja-prod/cong-nguyen-van-huyen.jpg?cache=1" alt="" className="img-fluid" />
                     </div>{/* end banner-img */}
                   </div>{/* end banner */}
                 </div>{/* end col */}
@@ -255,7 +255,7 @@ const TinTuc = ()=>{
             <div className="widget">
               <div className="banner-spot clearfix">
                 <div className="banner-img">
-                  <img src="https://scontent.fhan14-3.fna.fbcdn.net/v/t39.30808-6/272253136_1329492604185797_8085365758257353013_n.jpg?_nc_cat=110&cb=99be929b-3346023f&ccb=1-7&_nc_sid=730e14&_nc_ohc=eFd0x08aUbcAX-Mg-Wq&_nc_ht=scontent.fhan14-3.fna&oh=00_AfCLh_pC3Ry4_ORNdRQZqammlbtlXPmuXjBVnXb2UTqiYg&oe=649368B9" alt="" className="img-fluid" />
+                  <img src="https://static.ybox.vn/2019/12/4/1575519382406-21728627_10155163308469005_5888090380038063385_o.jpg" alt="" className="img-fluid" />
                 </div>{/* end banner-img */}
               </div>{/* end banner */}
             </div>{/* end widget */}
@@ -292,7 +292,7 @@ const TinTuc = ()=>{
               <div className="widget">
                 <div className="banner-spot clearfix">
                   <div className="banner-img">
-                    <img src="https://scontent.fhan14-2.fna.fbcdn.net/v/t39.30808-6/347615815_2401991033312231_5589671789769048144_n.jpg?_nc_cat=106&cb=99be929b-3346023f&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=774dER8O0NsAX-5XCc3&_nc_ht=scontent.fhan14-2.fna&oh=00_AfBV1H_WFaM98xzA2yUFDQ7Oxm6dYUQvKVhXKLrJ6JJywg&oe=649353E2" alt="" className="img-fluid" />
+                    <img src="https://toplist.vn/images/800px/cong-ca-phe-vincom-thai-nguyen-527597.jpg" alt="" className="img-fluid" />
                   </div>{/* end banner-img */}
                 </div>{/* end banner */}
               </div>{/* end widget */}

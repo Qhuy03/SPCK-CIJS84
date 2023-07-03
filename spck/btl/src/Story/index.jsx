@@ -8,6 +8,7 @@ const Story = ()=>{
     return(
         <>
             <Header/>
+            <hr/>
             <ContentStory/>
             <Footer/>
 
