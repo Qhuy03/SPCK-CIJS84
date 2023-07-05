@@ -5,16 +5,7 @@ import Header from "../Home/Header";
 import Footer from "../Home/Footer";
 const Detail = () => {
   const { state } = useLocation();
-  useEffect(()=>{
-    const handleScroll = () => {
-        const position = document.documentElement.scrollTop;
-        console.log("scrolling position: ", position);
-    }
-        document.addEventListener("scroll", handleScroll)
-    return () => {
-        document.removeEventListener("scroll", handleScroll)
-    }
-  });
+
   return (
     <>
       <Header />

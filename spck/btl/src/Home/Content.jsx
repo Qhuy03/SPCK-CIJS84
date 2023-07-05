@@ -26,7 +26,7 @@ const Content = ()=> {
   <br />
   <div className="card">
     <div className="main-content">
-      <img src="https://cong-news.appwifi.com/wp-content/uploads/2019/05/Pha-Che.jpg" alt="" />
+      <Link to='/tin'><img src="https://cong-news.appwifi.com/wp-content/uploads/2019/05/Pha-Che.jpg" alt="" /></Link>
     </div>
     <div className="overlay-content">
       <p>

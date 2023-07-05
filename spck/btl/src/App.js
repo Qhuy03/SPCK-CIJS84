@@ -9,6 +9,7 @@ import TinTuc from "./BangTin/TinTuc";
 import AppCong from "./BangTin/AppCong";
 import Content from "./layout/Content";
 import Detail from "./layout/Detail";
+import Cart from "./Cart";
 
 function App() {
   return (
@@ -20,10 +21,13 @@ function App() {
         <Route path="/story" element={<Story />} />
         <Route path="/tin" element={<TinTuc />} />
         <Route path="/app-cong" element={<AppCong />} />
+        <Route path="/cart" element={<Cart/>}/>
         <Route path="/thucdon" element={<Content />}>
+        
         </Route>
           <Route path="/detail" element={<Detail />} />
       </Routes>
+      
     </div>
   );
 }
